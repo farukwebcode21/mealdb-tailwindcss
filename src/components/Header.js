@@ -19,21 +19,22 @@ const Header = () => {
 
     return (
         <div>
-             <nav className="bg-white shadow-lg">
+             {/* <nav className="bg-white shadow-lg">
                 <div className="max-w-6xl mx-auto px-4">
                     <div className="flex justify-between">
                         <div className="flex space-x-7">
                              <div className="hidden md:flex items-center space-x-2 py-5 uppercase">
                                 <NavLink to="/home" className="text-2xl px-2 text-green-500  border-green-500">Home</NavLink>
                                 {/* <NavLink to="/detail" className="text-2xl px-3 text-gray-500 hover:text-green-500 transition duration-500">Detail</NavLink> */}
-                                <NavLink to="/service" className="text-2xl  px-2 text-gray-500  hover:text-green-500 transition duration-300">Services</NavLink>
+                                {/* <NavLink to="/service" className="text-2xl  px-2 text-gray-500  hover:text-green-500 transition duration-300">Services</NavLink>
                                 <NavLink to="/about" className="text-2xl px-2 text-gray-500  hover:text-green-500 transition duration-300">About</NavLink>
                                 <NavLink to="/contact" className="text-2xl px-2 text-gray-500 f hover:text-green-500 transition duration-300">Contact Us</NavLink>
                             </div>
                         </div>
                     </div>
                 </div>
-            </nav> 
+            </nav>  */} 
+            
         </div>
     )
 }
